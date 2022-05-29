@@ -32,3 +32,5 @@ sudo systemctl status docker
 #test
 #curl http://[your ip]:2375/images/json
 
+systemctl daemon-reload
+
