@@ -25,3 +25,10 @@ sudo systemctl status docker
 #$ sudo apt purge -y docker-ce docker-ce-cli containerd.io
 #$ sudo rm -rf /var/lib/docker
 #$ sudo rm -rf /var/lib/containerd
+
+#sudo vi /lib/systemd/system/docker.service
+#add
+# -H=tcp://0.0.0.0:2375
+#test
+#curl http://[your ip]:2375/images/json
+
