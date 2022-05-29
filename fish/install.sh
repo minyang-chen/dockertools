@@ -25,6 +25,7 @@ if [ -f `which powerline-daemon` ]; then
     powerline-daemon -q
     POWERLINE_BASH_CONTINUATION=1
     POWERLINE_BASH_SELECT=1
+    # . /home/disco/powerline/powerline/bindings/bash/powerline.sh   
 fi
 if [ -f /usr/local/lib/python3.8/dist-packages/powerline/bindings/bash/powerline.sh ]; then
     source /usr/local/lib/python3.8/dist-packages/powerline/bindings/bash/powerline.sh
