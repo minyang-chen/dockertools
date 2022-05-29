@@ -1,0 +1,7 @@
+
+Install on-premises
+
+https://kb.rport.io/install-the-rport-server/install-on-premises
+
+
+
