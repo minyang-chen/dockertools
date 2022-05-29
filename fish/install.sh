@@ -1,5 +1,5 @@
 
-sudo apt install -y fish figlet tmux mlocate fonts-powerline powerline resolvconf htop iftop bmon net-tools dnsutils gnu>
+sudo apt install -y fish figlet tmux mlocate fonts-powerline powerline resolvconf htop iftop bmon net-tools dnsutils nano vim
 
 sudo apt install python3-pip
 
