@@ -1,7 +1,7 @@
 Installs
 sudo apt install neovim
 sudo apt install exuberant-ctags 
-sudo apt install nodejs
+sudo apt install nodejs npm
 
 NeoVIM
 https://github.com/neovim/neovim
