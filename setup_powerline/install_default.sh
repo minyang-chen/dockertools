@@ -13,13 +13,13 @@ sudo apt install python3-pip
 pip --version
 
 # keep pip up-to-date
-python3 -m pip install --upgrade pip setuptools wheel
+#python3 -m pip install --upgrade pip setuptools wheel
 
 
 #Optional
-sudo apt install -y fish figlet tmux mlocate fonts-powerline resolvconf htop iftop bmon net-tools dnsutils gnupg2 ntpdate
+sudo apt install -y fish figlet powerline tmux mlocate fonts-powerline resolvconf htop iftop bmon net-tools dnsutils gnupg2 ntpdate
 
-sudo apt install powerline
+#sudo apt install powerline
 
 pip install powerline-status
 
@@ -27,8 +27,7 @@ git clone https://github.com/powerline/powerline.git
 
 
 ### update 
-
-sudo apt install fonts-powerline
+# sudo apt install fonts-powerline
 
 nano ~/.bashrc
 
