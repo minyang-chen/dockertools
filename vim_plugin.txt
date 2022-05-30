@@ -94,7 +94,11 @@ let g:airline_symbols.linenr = ''
 :set softtabstop=4
 :set mouse=a
 
+inoremap <expr> <Tab> pumvisible() ? coc#_select_confirm() : "<Tab>"
 
+======
+reference
+======
 PlugIn install
 
 ~/.config/nvim/
