@@ -6,7 +6,10 @@ sudo apt install nodejs npm
 NeoVIM
 https://github.com/neovim/neovim
 
-PlugIns System
+HowTo
+https://opensource.com/article/20/2/how-install-vim-plugins
+
+PlugIns Manager
 https://github.com/junegunn/vim-plug/init.vim
 
 
