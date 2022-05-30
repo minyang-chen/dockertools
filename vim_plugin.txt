@@ -12,9 +12,15 @@ https://opensource.com/article/20/2/how-install-vim-plugins
 PlugIns Manager
 https://github.com/junegunn/vim-plug/init.vim
 
-# run command
-curl -fLo ~/.config/.nvim/autoload/plug.vim --create-dirs \
-    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+# run command for VIM
+#curl -fLo ~/.config/.nvim/autoload/plug.vim --create-dirs \
+#    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+#
+
+# command for NeoVIM
+sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
+       https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
+       
 
 Sample Config Files
 https://github.com/NeuralNine/config-files/blob/master/init.vim#L22
