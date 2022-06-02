@@ -1,0 +1,11 @@
+
+https://github.com/echasnovski/nvim
+
+
+git clone --depth 1 https://github.com/echasnovski/nvim.git
+
+# Download all plugin submodules with latest commit
+# `--recursive` ensures that submodules of plugins are also downloaded
+git submodule update --init --depth 1 --recursive
+
+
