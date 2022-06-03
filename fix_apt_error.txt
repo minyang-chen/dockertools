@@ -1,0 +1,10 @@
+
+Error
+===========
+E: Unable to parse package file /var/lib/apt/lists/raspbian.raspberrypi.org_raspbian_dists_bullseye_main_binary-armhf_Packages (1)
+W: You may want to run apt-get update to correct these problems
+E: The package cache file is corrupted
+====
+
+sudo rm -rf /var/lib/apt/lists/*
+
