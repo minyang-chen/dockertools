@@ -8,3 +8,4 @@ E: The package cache file is corrupted
 
 sudo rm -rf /var/lib/apt/lists/*
 
+sudo apt update
