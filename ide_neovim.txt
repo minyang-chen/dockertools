@@ -1,0 +1,32 @@
+
+Getting Started With Vim - A Practical Guide
+https://www.jakewiesler.com/blog/getting-started-with-vim
+
+## installl
+sudo apt install neovim
+
+## neo config
+mkdir -p ~/.config/nvim
+cd ~/.config/nvim
+touch init.vim
+
+## plugin manager
+https://github.com/junegunn/vim-plug
+
+# install
+sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
+       https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
+       
+" ...general settings
+
+call plug#begin('~/.config/nvim/plugged')
+
+Plug 'gruvbox-community/gruvbox'
+
+call plug#end()
+
+" declare your color scheme
+colorscheme gruvbox
+" Use this for dark color schemes
+set background=dark
+
