@@ -1,9 +1,22 @@
 
+# good
+https://www.jakewiesler.com/blog/getting-started-with-vim#vim-fugitive
+
+# Build a portable environment
+https://jakewiesler.notion.site/Build-A-Portable-Development-Environment-43d698395f65498f825113b841ba22a6
+
+#latest NeoVim release
+https://github.com/neovim/neovim/releases/tag/v0.7.0
+
+
 Getting Started With Vim - A Practical Guide
 https://www.jakewiesler.com/blog/getting-started-with-vim
 
 ## installl
 sudo apt install neovim
+sudo apt install lua5.3
+
+##https://koenwoortman.com/lua-install-on-ubuntu/
 
 ## neo config
 mkdir -p ~/.config/nvim
