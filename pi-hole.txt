@@ -1,0 +1,14 @@
+
+https://privacyinternational.org/guide-step/4341/raspberry-pi-setup-and-run-pi-hole
+
+
+sudo apt install git
+
+To install Pi-hole, you'll clone its git repository and run the install script.
+
+git clone --depth 1 https://github.com/pi-hole/pi-hole.git Pi-hole
+
+cd "Pi-hole/automated install/"
+
+sudo basic-install.sh
+
