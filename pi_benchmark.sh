@@ -1,6 +1,9 @@
 # check exact firmware
 cat /sys/firmware/devicetree/base/model
 
+# hardinfo
+sudo apt install hardinfo 
+$ hardinfo
 
 # sysbench
 sudo apt-get install sysbench
