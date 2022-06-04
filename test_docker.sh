@@ -8,6 +8,12 @@ sudo usermod -aG docker pi3
 
 docker run hello-world
 
+==
+
+sudo apt-get -y install libffi-dev libssl-dev python3-dev python3 python3-pip
+sudo pip3 -v install docker-compose
+
+
 
 ==
 
