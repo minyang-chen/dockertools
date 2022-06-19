@@ -62,6 +62,7 @@ plugins !/.zshrc
 
 zsh-syntax-highlighting
 
-
+> change 
+p10k configure
 
 
