@@ -1,0 +1,15 @@
+
+# 1. install zsh shell
+
+
+# PowerLevel 10K
+# https://github.com/romkatv/powerlevel10k#installation
+# p10k configur
+
+# 1. Oh my zsh installation
+git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
+
+# 2. set theme
+# ZSH_THEME="powerlevel10k/powerlevel10k" in ~/.zshrc
+
+ZSH_THEME="powerlevel10k/powerlevel10k" in ~/.zshrc
